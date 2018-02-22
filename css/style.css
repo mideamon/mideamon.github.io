@@ -1,0 +1,33 @@
+.roro-background-main {
+	background-color: #6666E2;
+}
+
+.container p, span {
+	font-size: 16px;
+}
+
+.roro-subheader {
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.roro-item .item {
+	font-size: 0.75rem;
+}
+
+.roro-description {
+	font-size: 0.85rem;
+	font-weight: 400;
+}
+
+.roro-email-input {
+  border-color: #6666e2; 
+  background-color: transparent;
+}
+
+
+em {
+  font-style: normal;
+  color: #6666E2;
+}
+
