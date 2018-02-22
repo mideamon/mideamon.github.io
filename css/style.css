@@ -1,6 +1,50 @@
 .roro-background-main {
 	background-color: #6666E2;
+  position: relative;
+  transform: skewY(-1deg);
 }
+
+.roro-skew-correct {
+  position: relative;
+  transform: skewY(1deg);
+}
+
+#mc_embed_signup_scroll_1 {
+  margin: 0 auto;
+  width: 400px;
+}
+
+#mc_embed_signup_scroll_2 {
+  margin: 0 auto;
+  width: 400px;
+}
+
+@media (max-width: 600px){
+  .ui.container {
+    margin: 10px;
+    padding: 5px;
+  }
+  .ui.segment {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .ui.header {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  #mc_embed_signup_scroll_1 {
+  margin: 0 auto;
+  width: auto;
+  }
+
+  #mc_embed_signup_scroll_2 {
+  margin: 0 auto;
+  width: auto;
+  }
+}
+
 
 .container p, span {
 	font-size: 16px;
